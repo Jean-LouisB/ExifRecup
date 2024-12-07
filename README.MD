@@ -1,9 +1,18 @@
-# Extraction d'exif d'images
+# GET EXIF
 
-Cette app, extrait les exifs (nom, ISO, ouverture, durée, focale) des photos placées dans le dossier image à la racine.
+### V2.0.0
+JPG uniquement
 
-Elle les restitue sous forme d'un objet JSON prêt à être utilisé pour les grilles de photos sur un site web.
+1 - créer un dossier "images" sur le bureau avec les photos
 
-L'interface graphique est sommaire mais fonctionnelle.
+### Utilisation
 
-*Version 1.0.0 pour l'utilisation personnelle de Fabrice Kopf.*
+    from getexif.process import Process
+
+
+    try:
+        process = Process()
+        result = process.get_exif()
+        print(f"{result} images ont été traités")
+    except Exception as e:
+        print(f"Erreur de traitement : {str(e)}")
