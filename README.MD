@@ -1,11 +1,20 @@
 # GET EXIF
 
+### Instalation
+pip:
+    pip install my_library
+
+git:
+    https://github.com/Jean-LouisB/ExifRecup.git
+
+## Versions
 ### V2.0.0
 JPG uniquement
 
-1 - créer un dossier "images" sur le bureau avec les photos
+Créer un dossier "images" sur le bureau avec les photos
+Par défaut il cherche le dossier "images" sur le bureau.
 
-### Utilisation
+## Utilisation
 
     from getexif.process import Process
 
