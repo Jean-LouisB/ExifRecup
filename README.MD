@@ -2,7 +2,7 @@
 
 ### Instalation
 pip:
-    pip install my_library
+    pip install export-exif
 
 git:
     https://github.com/Jean-LouisB/ExifRecup.git

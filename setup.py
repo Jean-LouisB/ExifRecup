@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="Export exif",
+    name="export-exif",
     version="2.0.0",
     packages=find_packages(),
     description="Une bibliothèque pour traiter des images avec EXIF",  # Courte description
