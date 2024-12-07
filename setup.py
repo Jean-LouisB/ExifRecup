@@ -4,7 +4,6 @@ setup(
     name="Export exif",
     version="2.0.0",
     packages=find_packages(),
-    install_requires=["exif"],
     description="Une bibliothèque pour traiter des images avec EXIF",  # Courte description
     long_description=open("README.md", "r").read(),  # Description détaillée
     long_description_content_type="text/markdown",  # Type de contenu (Markdown)
