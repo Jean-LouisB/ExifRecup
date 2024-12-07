@@ -1,12 +1,10 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 
 setup(
-    name='ExifRecup',
-    version='1.0.0',
-    packages=[''],
-    url='',
-    license='',
-    author='Fabrice Kopf',
-    author_email='',
-    description='Permet de mettre une liste de photos au format JSON en y intégrant les Exifs disponibles.'
+    name="Export exif",
+    version="2.0.0",
+    packages=find_packages(),
+    install_requires=["exif"],
+    author="Fabrice Kopf",
+    description="Pour exporter les exifs d'un dossier de photos",
 )
